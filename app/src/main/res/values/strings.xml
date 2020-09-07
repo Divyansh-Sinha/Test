@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">My_Quiz</string>
+    <string name="question_declaration">A RIVER is bigger than a STREAM.</string>
+    <string name="question_grammar_1">There are one thousand years in a CENTURY.</string>
+    <string name="question_grammar_2">FOUNDED is the past tense of FOUND.</string>
+    <string name="question_grammar_3">ANSWER can be used as a NOUN and as a VERB.</string>
+    <string name="question_grammar_4"><b>SCARLET</b> is a brilliant red color.</string>
+
+    <string name="question_science_1">It is not possible to get a tan or sunburn on a cloudy day.</string>
+    <string name="question_science_2">In uniform motion the object covers equal distance in unequal interval of time.</string>
+    <string name="question_science_3">The Great Wall of China is visible from space.</string>
+    <string name="question_science_4">Atomic number is equal to the number of electrons.</string>
+    <string name="question_science_5">Mass Number is the sum of protons and neutrons.</string>
+
+    <string name="correct_answer">That\'s correct.</string>
+    <string name="wrong_answer">That\'s incorrect.</string>
+    <string name="true_text">TRUE</string>
+    <string name="false_text">FALSE</string>
+    <string name="next_text">Next</string>
+    <string name="head_text"><b>A Quiz on English Grammar</b></string>
+    <string name="science_section">Science Section</string>
+    <string name="a_quiz_on_maths">A Quiz on Science</string>
+    <string name="english_section">English Section</string>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:gravity="center_horizontal"
+    tools:context=".QuizQuestions">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="22sp"
+        android:textStyle="bold"
+
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:text="@string/a_quiz_on_maths"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="174dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="50dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/edit" />
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_green_light"
+        android:padding="8dp"
+        android:text="@string/question_science_1"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/true_button"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="@string/true_text"
+            android:textColor="@android:color/holo_green_dark"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/false_button"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="@string/false_text"
+            android:textColor="@android:color/holo_green_dark"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content">
+
+
+        <ImageButton
+            android:id="@+id/previous_button"
+            android:src="@drawable/arrow_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageButton
+            android:contentDescription="@string/next_text"
+            android:id="@+id/next_button"
+            android:src="@drawable/arrow_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/maths_section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/english_section" />
+
+</LinearLayout>
